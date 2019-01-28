@@ -28,6 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--//tags -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/contact.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<!-- //for bootstrap working -->
@@ -55,22 +56,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div id="navbar" class="navbar-collapse collapse">
 					<div class="nav_right_top">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="request" href="contact.html">Contact Us</a></li>
+							<li><a class="request" href="#contact">Contact Us</a></li>
 
 						</ul>
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="#about">About</a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="portfolio.html">Projects</a></li>
-									<li><a href="404.html">Services</a></li>
-
-
-								</ul>
-							</li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#services">Services</a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -171,7 +165,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!--//banner -->
 	<!--/ab-->
-	<div class="banner_bottom">
+	<div class="banner_bottom" id="about">
 		<div class="container">
 			<h3 class="tittle-w3ls">About Us</h3>
 			<div class="inner_sec_info_wthree_agile">
@@ -271,7 +265,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-3 ser-first-grid text-center">
 						<span class="fa fa-thumbs-up" aria-hidden="true"></span>
 						<h3>User Experience</h3>
-						<p>Our services are designed with the user in mind, .</p>
+						<p>Our services are designed with the user in mind, and tailored towards helping our customers achieve their goals.</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -294,7 +288,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!--//banner_bottom-->
 	<!--/projects-->
-	<div class="banner_bottom proj">
+	<div class="banner_bottom proj" id="portfolio">
 		<div class="wrap_view">
 			<h3 class="tittle-w3ls">Projects</h3>
 			<div class="inner_sec">
@@ -458,8 +452,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!--//projects-->
 	<!--/blog-->
-	<div class="blog_sec">
-		<h3 class="tittle-w3ls">Latest Blogs</h3>
+	<div class="blog_sec" id="services">
+		<h3 class="tittle-w3ls">Services</h3>
 		<div class="col-md-6 banner-btm-left">
 			<div class="banner-btm-top">
 				<div class="banner-btm-inner a1">
@@ -631,7 +625,67 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!--//testimonials-->
 
-	
+
+<!-- Contact -->
+<div class="banner_bottom" id="contact">
+		<div class="container">
+			
+			<div class="mail_form">
+				<h3 class="tittle-w3ls">Send Us a Message</h3>
+				<div class="inner_sec_info_wthree_agile">
+					<form action="#" method="post">
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="Name" type="text" id="input-13" placeholder=" " required="" />
+						<label class="input__label input__label--chisato" for="input-13">
+							<span class="input__label-content input__label-content--chisato" data-content="Name">Name</span>
+						</label>
+						</span>
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="Email" type="email" id="input-14" placeholder=" " required="" />
+						<label class="input__label input__label--chisato" for="input-14">
+							<span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
+						</label>
+						</span>
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="Subject" type="text" id="input-15" placeholder=" " required="" />
+						<label class="input__label input__label--chisato" for="input-15">
+							<span class="input__label-content input__label-content--chisato" data-content="Subject">Subject</span>
+						</label>
+						</span>
+						<textarea name="Message" placeholder="Your comment here..." required=""></textarea>
+						<input type="submit" value="Submit">
+					</form>
+
+				</div>
+			</div>
+			<div class="inner_sec_info_wthree_agile">
+           	<div class="col-md-8 map">
+					
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9336.092985312425!2d9.825342566501027!3d10.314365473754068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1054d7162efb31ff%3A0xf3bbce0e561635e3!2sAbubakar+Tafawa+Balewa+Stadium!5e0!3m2!1sen!2sng!4v1548716472324" style="border:0"></iframe>
+				</div>
+				<div class="col-md-4 contact_grids_info">
+					<div class="contact_grid">
+						<div class="contact_grid_right">
+							<h4> OFFICE 1</h4>
+							<p>435 City hall,</p>
+							<p>NewYork City SD092.</p>
+						</div>
+					</div>
+					<div class="contact_grid">
+						<div class="contact_grid_right">
+							<h4> OFFICE 2</h4>
+							<p>8088 Jasmine hall,</p>
+							<p>NewYork City SD092.</p>
+						</div>
+					</div>
+					
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//Contact -->
 
 	<!-- footer -->
 	<div class="footer">
